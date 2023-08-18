@@ -1,0 +1,7 @@
+clear all
+close all
+clc
+
+h=1;
+U=2;
+symc
