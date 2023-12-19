@@ -1,0 +1,1 @@
+//// CS2024:  Lecture #10, Demo 6//// Virtual Functions////  A simple Person classclass Person{ public:  void setInfo(string Name,string Addr,string Phone);  virtual void printInfo();protected:  string name;  string address;  string phone;};

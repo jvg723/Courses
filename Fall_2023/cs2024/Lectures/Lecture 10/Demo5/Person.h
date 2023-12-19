@@ -1,0 +1,1 @@
+//// CS2024:  Lecture #10, Demo 5//// Virtual Functions// //  Here's the Person classclass Person{ public:  void setInfo(string Name,string Addr,string Phone);  // NOW, Person::printInfo() is declared virtually  virtual void printInfo();protected:  string name;  string address;  string phone;};

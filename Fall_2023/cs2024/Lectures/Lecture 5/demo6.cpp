@@ -13,7 +13,7 @@ class Calculator
 {
 public:
   Calculator();
-  bool calculate(char op,float arg1,float arg2,float &result);
+  bool calculate(char op, float arg1,float arg2,float &result);
 
   int getOpCount() 
   {
