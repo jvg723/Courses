@@ -14,7 +14,7 @@ int main (int argc, char * const argv[])
 
 	cout << "curWidth is " << curWidth << endl;
 	
-	int integers[] = { 15, 335, 7243, 65355,4444993, 12345678};
+	int integers[] = { 15, 335, 7243, 65355, 4444993, 12345678};
 
 	// This will apply to the NEXT thing printed out (the setw(7)) so when we go into
 	// the for loop below, the first item will have the effects of the setw(7) but the
